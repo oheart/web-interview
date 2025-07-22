@@ -38,13 +38,16 @@ jobs:
         run: npm run build
       - name: deploy
         uses: easingthemes/ssh-deploy@v2.1.1
-        env:
-          # 私钥
-          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          SOURCE: "./dist"
-          REMOTE_HOST: ${{ secrets.HOST }}
-          REMOTE_USER: "root"
-          TARGET: ${{ secrets.PATH }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .vitepress/dist
+        # env:
+        #   # 私钥
+        #   SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+        #   SOURCE: "./dist"
+        #   REMOTE_HOST: ${{ secrets.HOST }}
+        #   REMOTE_USER: "root"
+        #   TARGET: ${{ secrets.PATH }}
 
 
 
