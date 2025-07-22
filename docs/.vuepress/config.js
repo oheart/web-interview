@@ -2,6 +2,9 @@ module.exports = {
   // title: "Vue3源码解析 - vue中文社区",
   title: "web前端面试 - 面试官系列",
   description: "web前端面试,vue面试题,react面试题,js面试题,大厂面试题,阿里面试题,京东面试题",
+  // 设置输出目录为 ../public
+  outDir: '../public',
+  // 设置基础路径为 '/<repository>/'
   base: '/interview/',
   head: [
     ["link", { rel: "icon", href: "/onepunch.jpeg" }],
