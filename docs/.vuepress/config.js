@@ -19,7 +19,7 @@ module.exports = {
     // ],
   ],
   themeConfig: {
-    repo: "febobo/web-interview",
+    repo: "oheart/web-interview",
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
     // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
     repoLabel: "Github",
@@ -27,7 +27,7 @@ module.exports = {
     // 以下为可选的编辑链接选项
 
     // 假如你的文档仓库和项目本身不在一个仓库：
-    docsRepo: "febobo/web-interview",
+    docsRepo: "oheart/web-interview",
     docsDir: "docs",
     docsBranch: "master",
     // 默认是 false, 设置为 true 来启用
