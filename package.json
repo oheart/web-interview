@@ -7,12 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-     "docs:build": "vitepress build .vitepress",
-    "docs:dev": "vitepress dev .vitepress"
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/febobo/web-interview.git"
+    "url": "git+https://github.com/oheart/web-interview.git"
   },
   "keywords": [
     "web",
@@ -21,9 +21,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/febobo/web-interview/issues"
+    "url": "https://github.com/oheart/web-interview/issues"
   },
-  "homepage": "https://github.com/febobo/web-interview#readme",
+  "homepage": "https://github.com/oheart/web-interview#readme",
   "devDependencies": {
     "vuepress": "^1.7.1"
   }
